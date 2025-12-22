@@ -66,17 +66,17 @@ Matplotlib: Visuliaztion
 
 Sciklearn: Prediction and Forecast
 
-Chart 1
+
 <img width="3158" height="2091" alt="1" src="https://github.com/user-attachments/assets/53e1d2aa-53be-4bed-b961-dc366806922d" />
 
 Economic growth rate measures the pace at which an economy expands over time. According to World Bank projections, African economies are expected to grow by 4.3 percent in 2026-2027. However, historical data from 2000 to 2024 reveal substantial cross-country variation. Over this period, average growth rates ranged from as high as 8.54 percent in Ethiopia to as low as 2.32 percent in South Africa, highlighting the uneven growth performance across the continent.
 
-Chart 2
+
 <img width="2515" height="1575" alt="2" src="https://github.com/user-attachments/assets/a7ab455c-8992-436b-801d-d077f56b3da3" />
 
 This shows largely that unemployment is a serious challenge facing African economies, with Botswana facing a whopping 26%, followed closely by South Africa experiencing 25.7% rate of unemployment. Kenya has a margin of 6%. Unemployment is a killer of the economy, as productive resources that should be channeled into productive use lie idle.
 
-Chart 3
+
 <img width="3115" height="1629" alt="3" src="https://github.com/user-attachments/assets/9716f758-b56e-4a25-a94a-c4550ff91c62" />
 
 Fiscal deficit is the heart of this project; the economy cannot survive without finance. Finance and Health are among the two most important parameters that affect all, whether you like it or not. The fiscal crisis facing African countries is proof that finance plays a key role in economic growth and development. Without finance government cannot run, salaries and wages of workers won't be paid, consumption drops, investment fails as well, and the economy collapses. Our data shows that the average deficit as a share of GDP for Egypt stood at -13.5% of Egypt's GDP, and Senegal witnessed -1.8% of deficit as a share of GDP. Deficit is a serious concern as it's one of the main reasons the economy goes bad into debt. When the measure cannot keep up with expenses.
@@ -84,7 +84,7 @@ Fiscal deficit is the heart of this project; the economy cannot survive without 
 ### Nigeria as a Case Study
 Let me begin this section with correlation analysis. How are these macroeconomic variables related to each other
 
-Chart 4
+
 <img width="2364" height="2036" alt="4" src="https://github.com/user-attachments/assets/0a55b43c-109b-48f1-8605-4f3759105c0b" />
 
 From the correction above, there is a very strong correlation between revenue, expenditure, GDP, and inflation, among others. These fiscal indicators are very necessary for the welfare and growth of any economy. It is vital to know that correlation does not imply causation; there could be other unforeseen factors that may, in one way or another, drive or affect these parameters, factors like institutional quality in a country, among others.
@@ -93,7 +93,7 @@ From the correction above, there is a very strong correlation between revenue, e
 I did some feature engineering by calculating various parameters like debt service % of GDP, deficit % of GDP, debt services % of total government expenditure, among others. This will offer us a better view of the performance of these fiscal indicators.
 Let's decode the pattern.
 
-Chart 5 -8
+
 
 <img width="3005" height="1574" alt="8" src="https://github.com/user-attachments/assets/2357a20d-378d-4f08-8618-1b892218f738" />
 
@@ -104,6 +104,7 @@ Chart 5 -8
 <img width="3016" height="1574" alt="5" src="https://github.com/user-attachments/assets/881d5eb8-82a3-4f39-a02a-34da45c39bde" />
 
 <img width="2958" height="1575" alt="9" src="https://github.com/user-attachments/assets/8539d985-d99c-4e1a-beed-c11d894d6a61" />
+
 
 The pattern is very clear: the budget deficit has widened over time, and this calls for urgent fiscal prudence. When revenue does not meet almost half of the expenditure, it shows there is something fundamentally wrong with the revenue projection of the government.
 
@@ -117,7 +118,6 @@ Nonetheless, fiscal risks remain elevated. Since 2020, the budget deficit as a s
 
 ### The misery Index
 
-Chart 10
 
 <img width="3135" height="1575" alt="10" src="https://github.com/user-attachments/assets/d8ff982b-84c3-4d5c-ae3f-21e58923df8d" />
 
@@ -131,8 +131,9 @@ In the context of fiscal crisis analysis, a rising food inflation–unemployment
 
 ### How does fiscal distress affect Sustainable Development Goals?
 
-Chart 11
+
 <img width="2948" height="1575" alt="11" src="https://github.com/user-attachments/assets/2383ce25-2a28-4d44-9c8e-ccc2e5ab72ec" />
+
 
 Mounting fiscal pressures have compelled the government to reallocate scarce public resources in ways that weaken long-term human capital development. As fiscal space narrows, spending priorities have increasingly shifted away from social investment toward security-related outlays.
 
@@ -146,6 +147,7 @@ Such an imbalance risks undermining progress toward SDG 3 (Good Health and Well-
 
 <img width="3016" height="1629" alt="12" src="https://github.com/user-attachments/assets/f5a7db07-8b9e-443d-ba30-90bcefd34385" />
 
+
 A linear trend forecasting model was employed to project Nigeria’s fiscal outlook. The results suggest that the fiscal deficit will peak at ₦20.35 trillion in 2026, before moderating to ₦18.61 trillion in 2027 and ₦16.86 trillion in 2028. 
 
 Overall, the model indicates an average annual widening of approximately ₦1.75 trillion, reflecting sustained fiscal pressures.
@@ -154,7 +156,6 @@ Overall, the model indicates an average annual widening of approximately ₦1.75
 ### Policy Simulation 
 Can we close this fiscal gap by 2030?
 
-Chart 14
 
 <img width="3006" height="1629" alt="14" src="https://github.com/user-attachments/assets/5b6a633e-51c8-4719-8d60-55eb4164b53d" />
 
@@ -164,6 +165,7 @@ Fiscal matter is of policy importance. I simulated a 3-case policy scenario, and
 The analysis reveals a strong relationship between fiscal deficits and the availability of resources for human capital investment, underscoring the crowding-out effect. As debt servicing obligations expand, funds that should be allocated to critical sectors such as health and education are increasingly diverted toward financing public debt. This reallocation erodes fiscal space, weakens long-term human capital development, and constrains inclusive growth.
 
 ### Recommendation
+
 Against this backdrop, the following policy recommendations are proposed.
 
 -First, the government should pursue gradual expenditure rationalization by eliminating non-essential and inefficient spending. 

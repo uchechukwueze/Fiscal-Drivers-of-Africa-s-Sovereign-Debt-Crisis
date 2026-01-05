@@ -7,34 +7,23 @@ fiscal deficit through 2027 under a business-as-usual scenario, absent meaningfu
 
 <img width="1536" height="1024" alt="Theme" src="https://github.com/user-attachments/assets/7c14c7a2-d198-4784-b5ad-05f2b866f5de" />
 
-
 ## Table of Contents
+- [Abstract](#abstract)
+- [Problem Statement](#problem-statement)
+- [Project Objectives](#project-objectives)
+- [Data Wrangling](#data-wrangling)
+- [Analysis of Africa Fiscal Indicators](#analysis-of-africa-fiscal-indicators)
+- [Nigeria as Case Study](#nigeria-as-case-study)
+- [Correlation Analysis: Fiscal Indicators](#correlation-analysis-fiscal-indicators)
+- [Trend Analysis](#trend-analysis)
+- [Anomaly Detection and Prediction](#anomaly-detection-and-prediction)
+- [Policy Simulation: Can We Close This Fiscal Gap by 2030?](#policy-simulation-can-we-close-this-fiscal-gap-by-2030)
+- [Conclusion](#conclusion)
+- [Recommendation](#recommendation)
 
-Abstract
 
-Problem Statement
+### Abstract
 
-Project Objectives
-
-Data Wrangling
-
-Analysis of Africa Fiscal Indicators
-
-Nigeria as Case Study
-
-Correlation Analysis: Fiscal Indicators
-
-Trend Analysis
-
-Anomaly Detection and Prediction
-
-Policy Simulation: Can we close this fiscal gap by 2030??
-
-Conclusion
-
-Recommendation
-
-### Abstract:
 In this project, I analyzed the fiscal and macroeconomic performance of many African economies using data compiled from various Central Banks and Statistical agencies of respective countries. In this project, I worked, cleaned, and explored 23,784 rows of records with 9 columns, including fiscal variables such as Budget Balance, Capital and Health Expenditure, GDP, Inflation, Unemployment, Government Debt, and Population metrics.
 I applied AI-driven anomaly detection and predictive modelling to find insights, uncover instability risks, and forecast economic trends through 2028. I found that the growth of the African economies in 2025 is 3.9%. From the data, the average growth rate of the 14 economies in the dataset between 2000 and 2023 ranges from 8.54 of Ethiopia to 2.32% of South Africa. Unemployment, food inflation, and deficit remain major issues facing African countries.
 I narrowed this study down to Nigeria. I found that between 2024 and 2025 alone, debt service rose by 73%, from ₦8.27tn to ₦14.32tn, highlighting the country's growing debt burden. Debt service currently accounts for 26.04% of the 2025 budget, up from 8.85% in 2009. Similarly, the debt service-to-GDP ratio has increased from 0.64% in 2009 to 4.07% in 2025. Meanwhile, the FG's budget deficit has continued to increase, reaching ₦13.08tn in the 2025 budget. However, as a percentage of the total budget, the deficit has declined to 23.79%. Since 2020, the budget deficit as a percentage of GDP has consistently exceeded the 3% threshold set by the Fiscal Responsibility Act. In the 2025 budget, the deficit stands at 3.72% of GDP.

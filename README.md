@@ -25,20 +25,29 @@ fiscal deficit through 2027 under a business-as-usual scenario, absent meaningfu
 ### Abstract
 
 In this project, I analyzed the fiscal and macroeconomic performance of many African economies using data compiled from various Central Banks and Statistical agencies of respective countries. In this project, I worked, cleaned, and explored 23,784 rows of records with 9 columns, including fiscal variables such as Budget Balance, Capital and Health Expenditure, GDP, Inflation, Unemployment, Government Debt, and Population metrics.
+
 I applied AI-driven anomaly detection and predictive modelling to find insights, uncover instability risks, and forecast economic trends through 2028. I found that the growth of the African economies in 2025 is 3.9%. From the data, the average growth rate of the 14 economies in the dataset between 2000 and 2023 ranges from 8.54 of Ethiopia to 2.32% of South Africa. Unemployment, food inflation, and deficit remain major issues facing African countries.
-I narrowed this study down to Nigeria. I found that between 2024 and 2025 alone, debt service rose by 73%, from ₦8.27tn to ₦14.32tn, highlighting the country's growing debt burden. Debt service currently accounts for 26.04% of the 2025 budget, up from 8.85% in 2009. Similarly, the debt service-to-GDP ratio has increased from 0.64% in 2009 to 4.07% in 2025. Meanwhile, the FG's budget deficit has continued to increase, reaching ₦13.08tn in the 2025 budget. However, as a percentage of the total budget, the deficit has declined to 23.79%. Since 2020, the budget deficit as a percentage of GDP has consistently exceeded the 3% threshold set by the Fiscal Responsibility Act. In the 2025 budget, the deficit stands at 3.72% of GDP.
+I narrowed this study down to Nigeria. I found that between 2024 and 2025 alone, debt service rose by 73%, from ₦8.27tn to ₦14.32tn, highlighting the country's growing debt burden. 
+
+Debt service currently accounts for 26.04% of the 2025 budget, up from 8.85% in 2009. Similarly, the debt service-to-GDP ratio has increased from 0.64% in 2009 to 4.07% in 2025. Meanwhile, the FG's budget deficit has continued to increase, reaching ₦13.08tn in the 2025 budget. However, as a percentage of the total budget, the deficit has declined to 23.79%. Since 2020, the budget deficit as a percentage of GDP has consistently exceeded the 3% threshold set by the Fiscal Responsibility Act. In the 2025 budget, the deficit stands at 3.72% of GDP.
+
 My anomaly detection flagged the 2023 and 2025 budget deficits as unusually high. My model forecasted that fiscal deficits would continue to widen into 2026 to over ₦20.35tn, and to ₦18.61 and ₦16.86tn in 2027 and 2028, respectively. My policy simulation based on three case scenarios suggests that to tame fiscal crisis, the Nigerian government should embrace fiscal prudence by finding a way to boost revenue and cut the cost of governance.
 
 ### Problem Statement
 Fiscal crises remain a major challenge confronting economies worldwide, with particularly severe consequences for developing economies in Africa. Despite the availability of extensive macroeconomic and fiscal data, weak integration and limited analytical use of these indicators often hinder the effectiveness of policy responses.
+
 The aim of the project, is to used AI, data science, and analytical modelling to transform fragmented macroeconomic and fiscal indicators — such as Budget Balance, Capital and Health Expenditure, GDP, Inflation, Unemployment, Government Debt, and Population metrics — into meaningful intelligence that can strengthen governance, support inclusive growth, and drive evidence-based policy choices across many developing economies — including Nigeria and other African countries.
+
 Also, I connect these datasets to measurable development outcomes and generate solutions that directly advance the Sustainable Development Goals (SDGs), such as linking health expenditure, population data, and real GDP to health system performance.
 
 ### Data Wrangling, Preprocess
 To ensure robust and reliable insights, a rigorous data processing pipeline was implemented:
+
 Data Cleaning: A total of 23,784 observations were carefully examined. Mixed data types in the Amount column were resolved by removing commas, parsing numeric values, and converting the Time variable into a standardized datetime format.
 Unit Standardization: Significant heterogeneity existed across measurement units (Millions vs. Billions). All financial variables were therefore standardized to Millions of local currency, ensuring internal consistency within each country.
+
 Currency Handling: Given country-specific currencies (e.g., EGP, NGN, ZAR, etc), cross-country aggregation was avoided to prevent misleading comparisons. Analysis instead emphasized within-country dynamics and normalized indicators such as fiscal deficits as a percentage of GDP.
+
 Aggregation: High-frequency monthly flow variables, including budget deficits and revenues, were aggregated into annual totals to ensure alignment with yearly macroeconomic indicators such as GDP.
 
 #### Tech Stack
